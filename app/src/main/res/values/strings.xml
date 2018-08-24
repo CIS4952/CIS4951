@@ -9,4 +9,5 @@
     <string name="projected_yearly_cash_output">0.00</string>
     <string name="monthly_cash_availability">Monthly Cash Availability</string>
     <string name="monthly_cash_avail_output">0.00</string>
+    <string name="calculate_budget">Calculate</string>
 </resources>
