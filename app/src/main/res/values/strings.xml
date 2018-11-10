@@ -1,13 +1,11 @@
 <resources>
     <string name="app_name">LinkUBank</string>
-    <string name="budget_title">Budget</string>
-    <string name="monthly_income">Monthly Income</string>
-    <string name="monthly_expenses">Monthly Expenses</string>
-    <string name="monthly_income_input">0.00</string>
-    <string name="monthly_expenses_input">0.00</string>
-    <string name="projected_yearly_cash">Projected Yearly Cash</string>
-    <string name="projected_yearly_cash_output">0.00</string>
-    <string name="monthly_cash_availability">Monthly Cash Availability</string>
-    <string name="monthly_cash_avail_output">0.00</string>
-    <string name="calculate_budget">Calculate</string>
+    <string name="username">Enter username</string>
+    <string name="password">Enter password</string>
+    <string name="username_input"> </string>
+    <string name="password_input"> </string>
+    <string name="login_button">Log in</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+
 </resources>
