@@ -7,5 +7,7 @@
     <string name="login_button">Log in</string>
     <string name="username_hint">Username</string>
     <string name="password_hint">Password</string>
+    <string name="forgotPass">Forgot Password</string>
+    <string name="signUp">Sign Up</string>
 
 </resources>
