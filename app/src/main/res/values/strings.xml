@@ -1,13 +1,5 @@
 <resources>
     <string name="app_name">LinkUBank</string>
-    <string name="username">Enter username</string>
-    <string name="password">Enter password</string>
-    <string name="username_input"> </string>
-    <string name="password_input"> </string>
-    <string name="login_button">Log in</string>
-    <string name="username_hint">Username</string>
-    <string name="password_hint">Password</string>
-    <string name="forgotPass">Forgot Password</string>
-    <string name="signUp">Sign Up</string>
+    <string name="LinkUBankLogo">LinkUBank</string>
 
 </resources>
