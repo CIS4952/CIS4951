@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".budgetStartPage"></activity>
+        <activity android:name=".budgetStartPage" />
+        <activity android:name=".linkProfessionals" />
+        <activity android:name=".budgetCreateOption"></activity>
     </application>
 
 </manifest>
