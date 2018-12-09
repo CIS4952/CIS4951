@@ -19,6 +19,7 @@
         android:layout_width="214dp"
         android:layout_height="77dp"
         android:layout_marginBottom="120dp"
+        android:onClick="logInApp"
         android:text="@string/loginbutton"
         android:textAllCaps="false"
         android:textSize="18sp"
