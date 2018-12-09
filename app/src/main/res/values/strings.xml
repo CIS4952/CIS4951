@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">LinkUBank</string>
     <string name="LinkUBankLogo">LinkUBank</string>
+    <string name="loginbutton">Login</string>
+    <string name="forgotpass">Forgot password</string>
+    <string name="signup">Sign up</string>
 
 </resources>
