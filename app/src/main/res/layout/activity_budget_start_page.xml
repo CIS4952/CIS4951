@@ -36,6 +36,7 @@
         android:text="@string/btnlinkprof"
         android:textAllCaps="false"
         android:textColor="@color/btnColorPrimary"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -53,6 +54,7 @@
         android:text="@string/btncreatebudget"
         android:textAllCaps="false"
         android:textColor="@color/btnColorPrimary"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />

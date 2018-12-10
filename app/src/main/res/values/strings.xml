@@ -9,5 +9,7 @@
     <string name="btnlinkprof">Link your professionals</string>
     <string name="btncreatebudget">Create your budget</string>
     <string name="btnLinkProfWithConsult">Link your professionals \n with your consultant</string>
+    <string name="btnManualBudget">Manually create your budget</string>
+    <string name="btnBudgetWithConsult">Create your budget with \n your consultant</string>
 
 </resources>
