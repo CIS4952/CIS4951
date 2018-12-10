@@ -8,5 +8,6 @@
     <string name="txtViewPassword">Password</string>
     <string name="btnlinkprof">Link your professionals</string>
     <string name="btncreatebudget">Create your budget</string>
+    <string name="btnLinkProfWithConsult">Link your professionals \n with your consultant</string>
 
 </resources>
