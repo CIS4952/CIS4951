@@ -11,5 +11,9 @@
     <string name="btnLinkProfWithConsult">Link your professionals \n with your consultant</string>
     <string name="btnManualBudget">Manually create your budget</string>
     <string name="btnBudgetWithConsult">Create your budget with \n your consultant</string>
+    <string name="btnIncome">Income</string>
+    <string name="btnExpenses">Expenses</string>
+    <string name="btnEmployer">Employer</string>
+    <string name="btnChildSupport">Child Support</string>
 
 </resources>

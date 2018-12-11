@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnLinkProf"
+        android:id="@+id/btnCreateManualBudget"
         android:layout_width="279dp"
         android:layout_height="214dp"
         android:layout_marginBottom="8dp"
@@ -42,7 +42,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btnCreateBudget"
+        android:id="@+id/btnLinkProfWithConsult"
         android:layout_width="279dp"
         android:layout_height="214dp"
         android:layout_marginEnd="40dp"

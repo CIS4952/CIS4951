@@ -18,7 +18,10 @@
         </activity>
         <activity android:name=".budgetStartPage" />
         <activity android:name=".linkProfessionals" />
-        <activity android:name=".budgetCreateOption"></activity>
+        <activity android:name=".budgetCreateOption" />
+        <activity android:name=".budgetStartSelect" />
+        <activity android:name=".incomeSelection" />
+        <activity android:name=".expenseSelection"></activity>
     </application>
 
 </manifest>
