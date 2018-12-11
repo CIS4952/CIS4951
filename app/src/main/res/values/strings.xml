@@ -15,5 +15,10 @@
     <string name="btnExpenses">Expenses</string>
     <string name="btnEmployer">Employer</string>
     <string name="btnChildSupport">Child Support</string>
+    <string name="btnSelfEmployed">Self-Employed</string>
+    <string name="btnRentalIncome">Rental Income</string>
+    <string name="btnInvestIncome">Investment Income</string>
+    <string name="btnBonusIncome">Bonus Income</string>
+    <string name="btnCustomAdd">Custom Add</string>
 
 </resources>

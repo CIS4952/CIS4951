@@ -17,6 +17,7 @@
         android:layout_marginTop="34dp"
         android:background="@drawable/rounded_button_white"
         android:text="@string/btnEmployer"
+        android:textColor="@color/blueText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -32,9 +33,90 @@
         android:layout_marginTop="14dp"
         android:background="@drawable/rounded_button_white"
         android:text="@string/btnChildSupport"
+        android:textColor="@color/blueText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnEmployer" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/rounded_button_white"
+        android:text="@string/btnSelfEmployed"
+        android:textColor="@color/blueText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="50"
+        android:layout_marginEnd="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/rounded_button_white"
+        android:text="@string/btnRentalIncome"
+        android:textColor="@color/blueText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="50"
+        android:layout_marginEnd="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/rounded_button_white"
+        android:text="@string/btnInvestIncome"
+        android:textColor="@color/blueText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="0dp"
+        android:layout_height="50"
+        android:layout_marginEnd="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/rounded_button_white"
+        android:text="@string/btnBonusIncome"
+        android:textColor="@color/blueText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="0dp"
+        android:layout_height="50"
+        android:layout_marginEnd="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/rounded_button_white"
+        android:text="@string/btnCustomAdd"
+        android:textColor="@color/blueText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
 
 
 </android.support.constraint.ConstraintLayout>
