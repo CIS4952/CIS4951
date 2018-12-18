@@ -20,5 +20,5 @@
     <string name="btnInvestIncome">Investment Income</string>
     <string name="btnBonusIncome">Bonus Income</string>
     <string name="btnCustomAdd">Custom Add</string>
-
+    <string name="txtViewCompensationAmount">Please enter your compensation amount</string>
 </resources>

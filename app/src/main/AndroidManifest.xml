@@ -21,7 +21,9 @@
         <activity android:name=".budgetCreateOption" />
         <activity android:name=".budgetStartSelect" />
         <activity android:name=".incomeSelection" />
-        <activity android:name=".expenseSelection"></activity>
+        <activity android:name=".expenseSelection" />
+        <activity android:name=".employerSelection" />
+        <activity android:name=".childSupportAmount"></activity>
     </application>
 
 </manifest>
