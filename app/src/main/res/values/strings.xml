@@ -25,9 +25,20 @@
     <string name="editTextEnterAmount">$0.00</string>
     <string name="btnSaveIncome">Save</string>
     <string name="btnSaveExpense">Save</string>
+
     <string name="txtViewHousingExpenses">Housing Expenses</string>
     <string name="txtViewRent">Rent</string>
     <string name="txtViewMortgage">Mortgage</string>
     <string name="txtViewTaxes">Taxes</string>
     <string name="txtViewHouseInsurance">House Insurance</string>
+
+    <string name="txtViewGeneralExpenses">General Expenses</string>
+    <string name="txtViewCarPayments">Car Payments</string>
+    <string name="txtViewCarInsurance">Car Insurance</string>
+    <string name="txtViewPhoneTVInternet">Phone/TV/Internet</string>
+    <string name="txtViewUtilities">Utilities</string>
+    <string name="txtViewCreditCardDebt">Credit Card Debt</string>
+    <string name="txtViewCreditCardPayment">Credit Card Payment</string>
+    <string name="txtViewBusinessDebts">Business Debts</string>
+    <string name="txtViewBusinessPayments">BusinessPayments</string>
 </resources>
