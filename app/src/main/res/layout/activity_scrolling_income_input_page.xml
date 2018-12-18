@@ -153,6 +153,17 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal" />
+
+            <Button
+                android:id="@+id/btnSaveIncome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/btnSaveIncome"
+                android:textColor="@color/blueText"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="161dp"
+                tools:layout_editor_absoluteY="648dp" />
         </LinearLayout>
     </ScrollView>
 

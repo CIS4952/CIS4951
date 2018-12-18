@@ -23,4 +23,6 @@
     <string name="txtViewCompensationAmount">Please enter your compensation amount</string>
     <string name="txtViewChildSupportAmt">Please enter your amount support income</string>
     <string name="editTextEnterAmount">$0.00</string>
+    <string name="btnSaveIncome">Save</string>
+    <string name="btnSaveExpense">Save</string>
 </resources>
