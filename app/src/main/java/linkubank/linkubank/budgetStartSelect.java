@@ -34,7 +34,7 @@ public class budgetStartSelect extends AppCompatActivity {
     }
 
     public void linkToIncome() {
-        Intent intent1 = new Intent(this, incomeSelection.class);
+        Intent intent1 = new Intent(this, scrollingIncomeInputPage.class);
         startActivity(intent1);
     }
 

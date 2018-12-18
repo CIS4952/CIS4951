@@ -21,4 +21,6 @@
     <string name="btnBonusIncome">Bonus Income</string>
     <string name="btnCustomAdd">Custom Add</string>
     <string name="txtViewCompensationAmount">Please enter your compensation amount</string>
+    <string name="txtViewChildSupportAmt">Please enter your amount support income</string>
+    <string name="editTextEnterAmount">$0.00</string>
 </resources>
