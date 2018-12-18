@@ -25,4 +25,9 @@
     <string name="editTextEnterAmount">$0.00</string>
     <string name="btnSaveIncome">Save</string>
     <string name="btnSaveExpense">Save</string>
+    <string name="txtViewHousingExpenses">Housing Expenses</string>
+    <string name="txtViewRent">Rent</string>
+    <string name="txtViewMortgage">Mortgage</string>
+    <string name="txtViewTaxes">Taxes</string>
+    <string name="txtViewHouseInsurance">House Insurance</string>
 </resources>

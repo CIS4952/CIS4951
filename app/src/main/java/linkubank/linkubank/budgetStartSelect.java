@@ -39,7 +39,7 @@ public class budgetStartSelect extends AppCompatActivity {
     }
 
     public void linkToExpenses() {
-        Intent intent2 = new Intent(this, expenseSelection.class);
+        Intent intent2 = new Intent(this, scrollingExpenseInputPage.class);
         startActivity(intent2);
     }
 }
