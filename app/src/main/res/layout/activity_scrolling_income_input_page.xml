@@ -34,142 +34,193 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3">
 
-        <LinearLayout
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/linearLayout2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/textView4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
                 android:text="@string/btnEmployer"
                 android:textColor="@color/blueText"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
                 android:id="@+id/editTextEmployerIncome"
-                android:layout_width="match_parent"
+                android:layout_width="214dp"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="@string/editTextEnterAmount"
-                android:inputType="numberDecimal" />
-
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="@string/btnChildSupport"
-                android:textColor="@color/blueText"
-                android:textSize="18sp" />
-
-            <EditText
-                android:id="@+id/editTextChildSupportIncome"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="166dp" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/btnChildSupport"
+                android:textColor="@color/blueText"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextEmployerIncome" />
+
+            <EditText
+                android:id="@+id/editTextChildSupportIncome"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint="@string/editTextEnterAmount"
+                android:inputType="numberDecimal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextEmployerIncome" />
 
             <TextView
                 android:id="@+id/textView6"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="16dp"
                 android:text="@string/btnSelfEmployed"
                 android:textColor="@color/blueText"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextChildSupportIncome" />
 
             <EditText
                 android:id="@+id/editTextSelfEmployIncome"
-                android:layout_width="match_parent"
+                android:layout_width="214dp"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="16dp"
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
-                android:inputType="numberDecimal" />
+                android:inputType="numberDecimal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextChildSupportIncome" />
 
             <TextView
                 android:id="@+id/textView7"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="16dp"
                 android:text="@string/btnRentalIncome"
                 android:textColor="@color/blueText"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextSelfEmployIncome" />
 
             <EditText
                 android:id="@+id/editTextRentalIncome"
-                android:layout_width="match_parent"
+                android:layout_width="214dp"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="16dp"
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
-                android:inputType="numberDecimal" />
+                android:inputType="numberDecimal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextSelfEmployIncome" />
 
             <TextView
                 android:id="@+id/textView8"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="16dp"
                 android:text="@string/btnInvestIncome"
                 android:textColor="@color/blueText"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextRentalIncome" />
 
             <EditText
                 android:id="@+id/editTextInvestmentIncome"
-                android:layout_width="match_parent"
+                android:layout_width="214dp"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="16dp"
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
-                android:inputType="numberDecimal" />
+                android:inputType="numberDecimal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextRentalIncome" />
 
             <TextView
                 android:id="@+id/textView9"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="16dp"
                 android:text="@string/btnBonusIncome"
                 android:textColor="@color/blueText"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextInvestmentIncome" />
 
             <EditText
                 android:id="@+id/editTextBonusIncome"
-                android:layout_width="match_parent"
+                android:layout_width="214dp"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="16dp"
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
-                android:inputType="numberDecimal" />
+                android:inputType="numberDecimal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextInvestmentIncome" />
 
             <TextView
                 android:id="@+id/textView10"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="16dp"
                 android:text="@string/btnCustomAdd"
                 android:textColor="@color/blueText"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextBonusIncome" />
 
             <EditText
                 android:id="@+id/editTextCustomAdd"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="16dp"
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
-                android:inputType="numberDecimal" />
+                android:inputType="numberDecimal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextBonusIncome" />
 
             <Button
                 android:id="@+id/btnSaveIncome"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
                 android:text="@string/btnSaveIncome"
                 android:textColor="@color/blueText"
                 android:textSize="18sp"
-                tools:layout_editor_absoluteX="161dp"
-                tools:layout_editor_absoluteY="648dp" />
-        </LinearLayout>
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextCustomAdd" />
+        </android.support.constraint.ConstraintLayout>
     </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
