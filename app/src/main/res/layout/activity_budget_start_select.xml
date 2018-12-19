@@ -37,4 +37,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnIncome" />
+
+    <Button
+        android:id="@+id/btnViewReport"
+        android:layout_width="314dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_button_white"
+        android:text="@string/btnViewReport"
+        android:textColor="@color/blueText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnExpenses" />
 </android.support.constraint.ConstraintLayout>

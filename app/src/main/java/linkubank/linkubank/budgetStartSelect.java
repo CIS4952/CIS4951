@@ -10,6 +10,7 @@ public class budgetStartSelect extends AppCompatActivity {
 
     private Button button1;
     private Button button2;
+    private Button button3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,14 @@ public class budgetStartSelect extends AppCompatActivity {
                 linkToExpenses();
             }
         });
+
+        button3 = (Button) findViewById(R.id.btnViewReport);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v3) {
+                linkToReportPage();
+            }
+        });
     }
 
     public void linkToIncome() {
@@ -41,5 +50,10 @@ public class budgetStartSelect extends AppCompatActivity {
     public void linkToExpenses() {
         Intent intent2 = new Intent(this, scrollingExpenseInputPage.class);
         startActivity(intent2);
+    }
+
+    public void linkToReportPage() {
+        Intent intent3 = new Intent(this, reportPage.class);
+        startActivity(intent3);
     }
 }

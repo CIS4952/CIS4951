@@ -13,6 +13,7 @@
     <string name="btnBudgetWithConsult">Create your budget with \n your consultant</string>
     <string name="btnIncome">Income</string>
     <string name="btnExpenses">Expenses</string>
+    <string name="btnViewReport">View Report</string>
     <string name="btnEmployer">Employer</string>
     <string name="btnChildSupport">Child Support</string>
     <string name="btnSelfEmployed">Self-Employed</string>
@@ -62,4 +63,13 @@
     <string name="txtViewLeisureExpense">Leisure Expenses</string>
     <string name="txtViewPersonalExpense">Personal Expenses</string>
 
-    </resources>
+    <string name="txtViewReportPage">Report</string>
+    <string name="txtViewProjYearCash">Projected Yearly Cash</string>
+    <string name="txtViewMonthCashAvail">Monthly Cash Availability</string>
+    <string name="txtViewMonthIncome">Monthly Income</string>
+    <string name="txtViewMonthExpense">Monthly Expense</string>
+
+    <string name="txtViewCurrentDebtIncomeRatio">Current Debt-to-Income Ratio</string>
+    <string name="txtViewTargetDebtIncomeRatio">Target Debt-to-Income Ratio</string>
+
+</resources>

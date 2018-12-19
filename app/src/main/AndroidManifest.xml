@@ -25,7 +25,8 @@
         <activity android:name=".employerSelection" />
         <activity android:name=".childSupportAmount" />
         <activity android:name=".scrollingIncomeInputPage" />
-        <activity android:name=".scrollingExpenseInputPage"></activity>
+        <activity android:name=".scrollingExpenseInputPage" />
+        <activity android:name=".reportPage"></activity>
     </application>
 
 </manifest>
