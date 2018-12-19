@@ -41,4 +41,25 @@
     <string name="txtViewCreditCardPayment">Credit Card Payment</string>
     <string name="txtViewBusinessDebts">Business Debts</string>
     <string name="txtViewBusinessPayments">BusinessPayments</string>
-</resources>
+
+    <string name="txtViewGovTaxes">Taxes</string>
+    <string name="txtViewFederal">Federal</string>
+    <string name="txtViewState">State</string>
+    <string name="txtViewLocal">Local</string>
+    <string name="txtViewProperty">Property</string>
+
+    <string name="txtViewEducationExpense">Education Expenses</string>
+    <string name="txtViewStudentLoan">Student Loan</string>
+    <string name="txtViewStudentLoanPayments">Student Loan Payments</string>
+    <string name="txtViewTuition">Tuition</string>
+    <string name="txtViewTuitionPayments">Tuition Payments</string>
+
+    <string name="txtViewHealthExpense">Health Expenses</string>
+    <string name="txtViewLifeInsurance">Life Insurance Payments</string>
+
+    <string name="txtViewLifeExpenses">Life Expenses Monthly</string>
+    <string name="txtViewFoodExpense">Food Expenses</string>
+    <string name="txtViewLeisureExpense">Leisure Expenses</string>
+    <string name="txtViewPersonalExpense">Personal Expenses</string>
+
+    </resources>

@@ -9,6 +9,7 @@ import android.widget.Button;
 public class scrollingIncomeInputPage extends AppCompatActivity {
 
     private Button button;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
