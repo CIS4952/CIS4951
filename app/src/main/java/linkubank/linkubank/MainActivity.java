@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity
         BackgroundWorker backgroundWorker = new BackgroundWorker(this);
         try {
             String result = backgroundWorker.execute(type, username, password).get();
-            if( result.equals("Login Success")) {
+            if(result.equals("Login Success")) {
                 Intent intent = new Intent(this, budgetStartPage.class);
                 startActivity(intent);
             }

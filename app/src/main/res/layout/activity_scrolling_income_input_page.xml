@@ -58,6 +58,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -82,6 +83,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextEmployerIncome" />
 
@@ -106,6 +108,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextChildSupportIncome" />
 
@@ -130,6 +133,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextSelfEmployIncome" />
 
@@ -154,6 +158,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextRentalIncome" />
 
@@ -178,6 +183,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextInvestmentIncome" />
 
@@ -202,6 +208,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextBonusIncome" />
 
