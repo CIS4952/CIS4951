@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity
 {
     private Button button;
 
+    //Random comment
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
