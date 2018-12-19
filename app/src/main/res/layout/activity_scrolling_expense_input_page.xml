@@ -71,6 +71,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView12" />
@@ -96,6 +97,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtRent" />
@@ -121,6 +123,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtMortgage" />
@@ -146,6 +149,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtTaxes" />
@@ -182,6 +186,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView17" />
@@ -207,6 +212,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtCarPayments" />
@@ -232,6 +238,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtCarInsurance" />
@@ -257,6 +264,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtPhoneTVInternet" />
@@ -282,6 +290,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtUtilities" />
@@ -307,6 +316,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtCreditCardDebt" />
@@ -332,6 +342,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtCreditCardPayment" />
@@ -357,6 +368,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtBusinessDebts" />
@@ -393,6 +405,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView26" />
@@ -418,6 +431,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtFederal" />
@@ -443,6 +457,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtState" />
@@ -468,6 +483,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtLocal" />
@@ -504,6 +520,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView31" />
@@ -529,6 +546,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtStudentLoan" />
@@ -554,6 +572,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtStudentLoanPayments" />
@@ -579,6 +598,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtTuition" />
@@ -615,6 +635,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView36" />
@@ -651,6 +672,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView38" />
@@ -676,6 +698,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtFoodExpenses" />
@@ -701,6 +724,7 @@
                 android:ems="10"
                 android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTxtLeisureExpenses" />

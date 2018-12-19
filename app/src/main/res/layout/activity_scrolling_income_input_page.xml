@@ -56,8 +56,8 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:ems="10"
-                android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -81,8 +81,8 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginTop="16dp"
                 android:ems="10"
-                android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextEmployerIncome" />
@@ -106,8 +106,8 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginTop="16dp"
                 android:ems="10"
-                android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextChildSupportIncome" />
@@ -131,8 +131,8 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginTop="16dp"
                 android:ems="10"
-                android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextSelfEmployIncome" />
@@ -156,8 +156,8 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginTop="16dp"
                 android:ems="10"
-                android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextRentalIncome" />
@@ -181,8 +181,8 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginTop="16dp"
                 android:ems="10"
-                android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextInvestmentIncome" />
@@ -200,14 +200,14 @@
 
             <EditText
                 android:id="@+id/editTextCustomAdd"
-                android:layout_width="wrap_content"
+                android:layout_width="214dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginTop="16dp"
                 android:ems="10"
-                android:hint="@string/editTextEnterAmount"
                 android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
                 android:text="@string/editTextEnterAmount"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextBonusIncome" />
