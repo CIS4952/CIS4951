@@ -51,7 +51,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/rounded_button_white"
-        android:text="@string/btnLinkProfWithConsult"
+        android:text="@string/btnBudgetWithConsult"
         android:textAllCaps="false"
         android:textColor="@color/btnColorPrimary"
         android:textSize="18sp"
